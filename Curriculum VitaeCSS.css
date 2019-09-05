@@ -1,7 +1,64 @@
+/*----------------------------------------------------------------------HTML Tags---------------------------------------------------------------------*/
+body{
+	background-color: white;
+	background-image: url("background.jpg");
+}
+
+img{
+	border-radius:25px;
+}
+
 h1{
 	color: firebrick;
 	}
 
 a{ 
 	color: red;
+}
+
+/*--------------------------------------------------------------------------Classes------------------------------------------------------------------*/
+
+.conteiner{
+	border-radius:30px;
+	margin: auto;
+	padding:10px;
+	background-image: url("/D:/Imagens/background.jpg");
+}
+
+
+
+/*------------------------------------------------------------------------Div's ID's------------------------------------------------------------------*/
+
+#divfoto{
+	background-color:darkgray;
+	width: 31%;
+	padding:11px;
+	padding-left:17px;
+	border-radius: 25px;
+	margin: auto;
+}
+
+#div1{
+	border-radius:25px;
+	width: 30%;
+	height: 100px;
+	margin: 20px;
+	background-color: #9bacbf;
+	font-size: 40px;
+	color: red;
+	display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+	color:firebrick;
+}
+
+#div2{
+	border-radius:25px;
+	width: 30%;
+	height: 100px;
+	margin: 20px;
+	background-color: #9bacbf;
+	display: table-cell;
+    vertical-align:middle;
+   padding-left: 10px;
 }
