@@ -1,7 +1,8 @@
+
 /*----------------------------------------------------------------------HTML Tags---------------------------------------------------------------------*/
 body{
 	background-color: white;
-	background-image: url("background.jpg");
+	background-image: url("D:/Imagens/background.jpg");
 }
 
 img{
@@ -10,6 +11,8 @@ img{
 
 h1{
 	color: firebrick;
+	text-shadow: 1px 1px 1px #111111;
+	
 	}
 
 a{ 
@@ -22,7 +25,7 @@ a{
 	border-radius:30px;
 	margin: auto;
 	padding:10px;
-	background-image: url("background.jpg");
+	background-image: url("D:/Imagens/background.jpg");
 }
 
 
@@ -30,7 +33,7 @@ a{
 /*------------------------------------------------------------------------Div's ID's------------------------------------------------------------------*/
 
 #divfoto{
-	background-color:#9bacbf;
+	background-color:rgba(0, 0 , 0, 0.85);
 	width: 31%;
 	padding:11px;
 	padding-left:17px;
@@ -43,8 +46,9 @@ a{
 	width: 30%;
 	height: 100px;
 	margin: 20px;
-	background-color: #9bacbf;
-	font-size: 40px;
+	background-color: rgba(0, 0 , 0, 0.85);
+	text-shadow: 1px 1px 1px #111111;
+	font-size: 30px;
 	color: red;
 	display: table-cell;
     vertical-align:middle;
@@ -57,8 +61,9 @@ a{
 	width: 30%;
 	height: 100px;
 	margin: 20px;
-	background-color: #9bacbf;
+	background-color:rgba(0, 0 , 0, 0.85);
 	display: table-cell;
     vertical-align:middle;
-   padding-left: 10px;
+	padding-left: 10px;
+	color:white;
 }
