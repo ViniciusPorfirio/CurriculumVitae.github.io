@@ -41,6 +41,10 @@ a{
 	margin: auto;
 }
 
+#divfoto:hover{
+	background-color:#A29AD4;
+}
+
 #div1{
 	border-radius:25px;
 	width: 30%;
@@ -77,3 +81,4 @@ a{
 	clear:both;
 	margin-top:-10px;
 }
+
