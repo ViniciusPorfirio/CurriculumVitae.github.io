@@ -16,7 +16,7 @@ h1{
 	}
 
 a{ 
-	color: red;
+	text-decoration:none;
 }
 
 /*--------------------------------------------------------------------------Classes------------------------------------------------------------------*/
@@ -63,7 +63,17 @@ a{
 	margin: 20px;
 	background-color:rgba(0, 0 , 0, 0.85);
 	display: table-cell;
-    vertical-align:middle;
+   	vertical-align:middle;
 	padding-left: 10px;
 	color:white;
+	clear:both;
+}
+
+#div3{
+	float:left;
+}
+#icons{
+	float:right;
+	clear:both;
+	margin-top:-10px;
 }
