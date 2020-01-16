@@ -34,11 +34,12 @@ a{
 
 #divfoto{
 	background-color:rgba(0, 0 , 0, 0.85);
-	width: 31%;
+	width: fit-content;
 	padding:11px;
 	padding-left:17px;
 	border-radius: 25px;
 	margin: auto;
+	
 }
 
 #divfoto:hover{
@@ -62,7 +63,7 @@ a{
 
 #div2{
 	border-radius:25px;
-	width: 30%;
+	width: 12%;
 	height: 100px;
 	margin: 20px;
 	background-color:rgba(0, 0 , 0, 0.85);
