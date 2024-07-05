@@ -2,7 +2,7 @@
 /*----------------------------------------------------------------------HTML Tags---------------------------------------------------------------------*/
 body{
 	background-color: white;
-	background-image: url("background.jpg");
+	background-image: url("images/background.jpg");
 }
 
 img{
@@ -79,6 +79,7 @@ a{
 }
 #icons{
 	float:right;
+	place-items: center;
 	clear:both;
 	margin-top:-10px;
 }
