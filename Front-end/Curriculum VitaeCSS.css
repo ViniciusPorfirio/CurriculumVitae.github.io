@@ -1,13 +1,11 @@
 
 /*----------------------------------------------------------------------HTML Tags---------------------------------------------------------------------*/
-body{
+/*body{
 	background-color: white;
 	background-image: url("images/background.jpg");
 }
+*/
 
-img{
-	border-radius:25px;
-}
 
 h1{
 	color: firebrick;
@@ -22,29 +20,50 @@ a{
 /*--------------------------------------------------------------------------Classes------------------------------------------------------------------*/
 
 .conteiner{
-	border-radius:30px;
-	margin: auto;
+	height: 100%;
+	width: 100%;
 	padding:10px;
-	background-image: url("background.jpg")
+	background-color: purple;
+}
+
+.leftSide{
+	left: 0;
+	height: 100%;
+	width: 30%;
+	background-color: #ff0000;
 }
 
 
+.rightSide{
+	right: 0;
+	height: 100%;
+	width: 30%;
+	background-color: #2afd00;
+}
+
+.divfoto{
+	background-color:rgba(0, 0 , 0, 1);
+	overflow: hidden;
+	display:inline-block;
+	vertical-align:middle;
+	padding:11px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin-bottom: -50px;
+}
+
+
+.divfoto img{
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
 
 /*------------------------------------------------------------------------Div's ID's------------------------------------------------------------------*/
 
-#divfoto{
-	background-color:rgba(0, 0 , 0, 0.85);
-	width: fit-content;
-	padding:11px;
-	padding-left:17px;
-	border-radius: 25px;
-	margin: auto;
-	
-}
 
-#divfoto:hover{
-	background-color:gray;
-}
+
 
 #div1{
 	border-radius:25px;
@@ -58,29 +77,26 @@ a{
 	display: table-cell;
     vertical-align:middle;
     text-align:center;
-	color:firebrick;
 }
 
 #div2{
-	border-radius:25px;
 	width: 12%;
 	height: 100px;
-	margin: 20px;
-	background-color:rgba(0, 0 , 0, 0.85);
+	margin: 4px;
+	background-color:rgb(34, 10, 1);
 	display: table-cell;
    	vertical-align:middle;
 	padding-left: 10px;
 	color:white;
 	clear:both;
+	left: 10px;
 }
 
 #div3{
 	float:left;
 }
 #icons{
-	float:right;
-	place-items: center;
-	clear:both;
-	margin-top:-10px;
+	float:left;
+	margin-top:65px;
 }
 
