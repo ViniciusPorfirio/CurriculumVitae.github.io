@@ -1,102 +1,147 @@
-
 /*----------------------------------------------------------------------HTML Tags---------------------------------------------------------------------*/
-/*body{
-	background-color: white;
-	background-image: url("images/background.jpg");
+body{
+	background-color: rgb(235, 230, 235);
 }
-*/
 
-
-h1{
-	color: firebrick;
-	text-shadow: 1px 1px 1px #111111;
-	
-	}
-
-a{ 
-	text-decoration:none;
+a {
+	text-decoration: none;
 }
 
 /*--------------------------------------------------------------------------Classes------------------------------------------------------------------*/
 
-.conteiner{
-	height: 100%;
+.conteiner {
 	width: 100%;
-	padding:10px;
-	background-color: purple;
+	padding: 10px;
+	position: relative;
+	align-items: center;
 }
 
-.leftSide{
+.leftSide {
+	position: relative;
 	left: 0;
 	height: 100%;
-	width: 30%;
-	background-color: #ff0000;
+	width: 28%;
+	margin-top: -112px;
 }
 
-
-.rightSide{
-	right: 0;
-	height: 100%;
-	width: 30%;
-	background-color: #2afd00;
-}
-
-.divfoto{
-	background-color:rgba(0, 0 , 0, 1);
+.divfoto {
+	background-color: #111111;
 	overflow: hidden;
-	display:inline-block;
-	vertical-align:middle;
-	padding:11px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 11px;
 	border-radius: 50%;
 	height: 200px;
 	width: 200px;
-	margin-bottom: -50px;
+	margin-left: 40px;
+	margin-bottom: -110px;
 }
 
+.rightSide {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 69%;
+	transform: translate(0%, -85%);
+}
 
-.divfoto img{
+.section {
+	float: left;
+	height: fit-content;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 20px;
+	flex: 2;
+}
+
+.sectionA{
+	padding-right: 20px;
+	height: fit-content;
+	max-width: 29%;
+	flex: 1;
+}
+
+.sectionB {
+	padding-left: 20px;
+	text-align: start;
+	height: fit-content;
+	width: 70%;
+	flex: 2;
+	border-left: 3px solid rgba(187, 187, 187, 0.85);
+}
+.meter{
+
+}
+
+.horizontalSplitter {
+	position: relative;
+	border-top: 3px solid rgba(187, 187, 187, 0.85);
+	border-radius: 120px;
+	margin: 10px;
+}
+
+.divfoto img {
 	width: 100%;
 	object-fit: cover;
 	border-radius: 50%;
 }
 
-/*------------------------------------------------------------------------Div's ID's------------------------------------------------------------------*/
-
-
-
-
-#div1{
-	border-radius:25px;
-	width: 30%;
-	height: 100px;
-	margin: 20px;
-	background-color: rgba(0, 0 , 0, 0.85);
-	text-shadow: 1px 1px 1px #111111;
-	font-size: 30px;
-	color: red;
-	display: table-cell;
-    vertical-align:middle;
-    text-align:center;
+.generalTextLeft {
+	font-size: 13px;
+	padding-left: 10px;
+	padding-right: 7px;
+	text-align: start;
+	color: azure;
 }
 
-#div2{
+.generalTextRight {
+	font-size: 13px;
+	padding-right: 13px;
+	text-align: end;
+	color: #111111;
+}
+
+/*------------------------------------------------------------------------Div's ID's------------------------------------------------------------------*/
+
+#topHeadBanner {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 27px;
+	text-align: center;
+	height: 150px;
+	background-color: gray;
+	padding-top: 25px;
+	padding-left: 200px;
+}
+
+#div1 {
+	width: 30%;
+	height: 1000px;
+	margin: 20px;
+	background-color: #111111;
+	display: table-cell;
+	text-align: center;
+}
+
+#div2 {
 	width: 12%;
 	height: 100px;
 	margin: 4px;
-	background-color:rgb(34, 10, 1);
+	background-color: #111111;
 	display: table-cell;
-   	vertical-align:middle;
+	vertical-align: middle;
 	padding-left: 10px;
-	color:white;
-	clear:both;
+	color: white;
+	clear: both;
 	left: 10px;
 }
 
-#div3{
-	float:left;
-}
-#icons{
-	float:left;
-	margin-top:65px;
+#div3 {
+	float: left;
 }
 
+
+#icons {
+	float: left;
+	margin-top: 120px;
+	padding-left: 10px;
+}
